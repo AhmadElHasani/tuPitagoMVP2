@@ -1,4 +1,5 @@
 D:\tuPitago\Piattaforma\mvp2 mio\tuPitagoMVP2\Persistence\bin\Debug\net8.0\Persistence.deps.json
+D:\tuPitago\Piattaforma\mvp2 mio\tuPitagoMVP2\Persistence\bin\Debug\net8.0\Persistence.runtimeconfig.json
 D:\tuPitago\Piattaforma\mvp2 mio\tuPitagoMVP2\Persistence\bin\Debug\net8.0\Persistence.dll
 D:\tuPitago\Piattaforma\mvp2 mio\tuPitagoMVP2\Persistence\bin\Debug\net8.0\Persistence.pdb
 D:\tuPitago\Piattaforma\mvp2 mio\tuPitagoMVP2\Persistence\bin\Debug\net8.0\Domain.dll
@@ -8,8 +9,10 @@ D:\tuPitago\Piattaforma\mvp2 mio\tuPitagoMVP2\Persistence\obj\Debug\net8.0\Persi
 D:\tuPitago\Piattaforma\mvp2 mio\tuPitagoMVP2\Persistence\obj\Debug\net8.0\Persistence.AssemblyInfoInputs.cache
 D:\tuPitago\Piattaforma\mvp2 mio\tuPitagoMVP2\Persistence\obj\Debug\net8.0\Persistence.AssemblyInfo.cs
 D:\tuPitago\Piattaforma\mvp2 mio\tuPitagoMVP2\Persistence\obj\Debug\net8.0\Persistence.csproj.CoreCompileInputs.cache
+D:\tuPitago\Piattaforma\mvp2 mio\tuPitagoMVP2\Persistence\obj\Debug\net8.0\Persistence.sourcelink.json
 D:\tuPitago\Piattaforma\mvp2 mio\tuPitagoMVP2\Persistence\obj\Debug\net8.0\Persiste.61C28332.Up2Date
 D:\tuPitago\Piattaforma\mvp2 mio\tuPitagoMVP2\Persistence\obj\Debug\net8.0\Persistence.dll
 D:\tuPitago\Piattaforma\mvp2 mio\tuPitagoMVP2\Persistence\obj\Debug\net8.0\refint\Persistence.dll
 D:\tuPitago\Piattaforma\mvp2 mio\tuPitagoMVP2\Persistence\obj\Debug\net8.0\Persistence.pdb
+D:\tuPitago\Piattaforma\mvp2 mio\tuPitagoMVP2\Persistence\obj\Debug\net8.0\Persistence.genruntimeconfig.cache
 D:\tuPitago\Piattaforma\mvp2 mio\tuPitagoMVP2\Persistence\obj\Debug\net8.0\ref\Persistence.dll

@@ -5,6 +5,7 @@ D:\tuPitago\Piattaforma\mvp2 mio\tuPitagoMVP2\Domain\obj\Debug\net8.0\Domain.Gen
 D:\tuPitago\Piattaforma\mvp2 mio\tuPitagoMVP2\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
 D:\tuPitago\Piattaforma\mvp2 mio\tuPitagoMVP2\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
 D:\tuPitago\Piattaforma\mvp2 mio\tuPitagoMVP2\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+D:\tuPitago\Piattaforma\mvp2 mio\tuPitagoMVP2\Domain\obj\Debug\net8.0\Domain.sourcelink.json
 D:\tuPitago\Piattaforma\mvp2 mio\tuPitagoMVP2\Domain\obj\Debug\net8.0\Domain.dll
 D:\tuPitago\Piattaforma\mvp2 mio\tuPitagoMVP2\Domain\obj\Debug\net8.0\refint\Domain.dll
 D:\tuPitago\Piattaforma\mvp2 mio\tuPitagoMVP2\Domain\obj\Debug\net8.0\Domain.pdb

@@ -1,3 +1,7 @@
+using Microsoft.EntityFrameworkCore;
+using Persistence;
+
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -5,28 +9,21 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 
 
-// Aggiungi servizi
-builder.Services.AddControllers();
-builder.Services.AddEndpointsApiExplorer(); // serve per Swagger
-builder.Services.AddSwaggerGen();           // sostituisce AddOpenApi()
+// Configura il DbContext con Postgres
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-//builder.Services.AddOpenApi();
 
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
+app.MapControllers();
+
 if (app.Environment.IsDevelopment())
 {
-    app.UseSwagger();                       // sostituisce MapOpenApi()
-    app.UseSwaggerUI();
-    //app.MapOpenApi();
+    using var scope = app.Services.CreateScope();
+    var context = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+    await DbInitializer.SeedAsync(context);
 }
-
-app.UseHttpsRedirection();
-
-app.UseAuthorization();
-
-app.MapControllers();
 
 app.Run();

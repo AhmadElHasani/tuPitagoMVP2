@@ -35,6 +35,9 @@
             "projectReferences": {
               "D:\\tuPitago\\Piattaforma\\mvp2 mio\\tuPitagoMVP2\\Application\\Application.csproj": {
                 "projectPath": "D:\\tuPitago\\Piattaforma\\mvp2 mio\\tuPitagoMVP2\\Application\\Application.csproj"
+              },
+              "D:\\tuPitago\\Piattaforma\\mvp2 mio\\tuPitagoMVP2\\Persistence\\Persistence.csproj": {
+                "projectPath": "D:\\tuPitago\\Piattaforma\\mvp2 mio\\tuPitagoMVP2\\Persistence\\Persistence.csproj"
               }
             }
           }
@@ -55,13 +58,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[8.*, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.7.0, )"
+              "version": "[8.0.8, )"
             }
           },
           "imports": [
@@ -276,6 +277,34 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[10.0.2, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[10.0.2, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[10.0.2, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
