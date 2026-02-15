@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "JWvZ22Jkb9c=",
+  "dgSpecHash": "AccVSq8Vz5M=",
   "success": true,
   "projectFilePath": "D:\\tuPitago\\Piattaforma\\mvp2 mio\\tuPitagoMVP2\\Application\\Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ahmad\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
+    "C:\\Users\\ahmad\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",
+    "C:\\Users\\ahmad\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\ahmad\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.8\\microsoft.entityframeworkcore.8.0.8.nupkg.sha512",
     "C:\\Users\\ahmad\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.8\\microsoft.entityframeworkcore.abstractions.8.0.8.nupkg.sha512",
     "C:\\Users\\ahmad\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\8.0.8\\microsoft.entityframeworkcore.analyzers.8.0.8.nupkg.sha512",

@@ -1,32 +1,62 @@
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using Persistence;
-using Domain;
+using MediatR;
+using Application.DTOs.Exercises;
+using Application.Exercises.Commands.CreateExercise;
+using Application.Exercises.Commands.UpdateExercise;
+using Application.Exercises.Commands.BulkDeleteExercise;
+using Application.Exercises.Queries.GetExercises;
+using Application.Exercises.Queries.GetExerciseById;
 
 namespace API.Controllers;
 
-public class ExercisesController(AppDbContext context) : BaseApiController
+[ApiController]
+[Route("api/[controller]")]
+public class ExercisesController : ControllerBase
 {
-    private readonly AppDbContext _context = context;
+    private readonly IMediator _mediator;
+
+    public ExercisesController(IMediator mediator)
+    {
+        _mediator = mediator;
+    }
 
     // GET: api/exercises
     [HttpGet]
-    public async Task<ActionResult<List<Exercise>>> GetExercises()
+    public async Task<ActionResult<List<ExerciseDto>>> GetAll()
     {
-        return await _context.Exercises
-            .OrderBy(x => x.Topic)
-            .ToListAsync();
+        var result = await _mediator.Send(new GetExercisesQuery());
+        return Ok(result);
     }
 
     // GET: api/exercises/{id}
     [HttpGet("{id}")]
-    public async Task<ActionResult<Exercise>> GetExercise(string id)
+    public async Task<ActionResult<ExerciseDto>> GetById(string id)
     {
-        var exercise = await _context.Exercises.FindAsync(id);
+        var result = await _mediator.Send(new GetExerciseByIdQuery(id));
+        return Ok(result);
+    }
 
-        if (exercise == null)
-            return NotFound();
+    // POST: api/exercises
+    [HttpPost]
+    public async Task<ActionResult<ExerciseDto>> Create([FromBody] ExerciseCreateDto dto)
+    {
+        var result = await _mediator.Send(new CreateExerciseCommand(dto));
+        return CreatedAtAction(nameof(GetById), new { id = result.Id }, result);
+    }
 
-        return exercise;
+    // PUT: api/exercises/{id}
+    [HttpPut("{id}")]
+    public async Task<ActionResult<ExerciseDto>> Update(string id, [FromBody] ExerciseUpdateDto dto)
+    {
+        var result = await _mediator.Send(new UpdateExerciseCommand(id, dto));
+        return Ok(result);
+    }
+
+    // DELETE: api/exercises/bulk
+    [HttpDelete("bulk")]
+    public async Task<IActionResult> BulkDelete([FromBody] BulkDeleteExercisesDto dto)
+    {
+        await _mediator.Send(new BulkDeleteExercisesCommand(dto.Ids));
+        return NoContent();
     }
 }

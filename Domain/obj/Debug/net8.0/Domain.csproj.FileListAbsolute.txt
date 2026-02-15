@@ -1,4 +1,4 @@
-D:\tuPitago\Piattaforma\mvp2 mio\tuPitagoMVP2\Domain\bin\Debug\net8.0\Domain.deps.json
+d:\tuPitago\Piattaforma\mvp2 mio\tuPitagoMVP2\Domain\bin\Debug\net8.0\Domain.deps.json
 D:\tuPitago\Piattaforma\mvp2 mio\tuPitagoMVP2\Domain\bin\Debug\net8.0\Domain.dll
 D:\tuPitago\Piattaforma\mvp2 mio\tuPitagoMVP2\Domain\bin\Debug\net8.0\Domain.pdb
 D:\tuPitago\Piattaforma\mvp2 mio\tuPitagoMVP2\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
@@ -9,4 +9,4 @@ D:\tuPitago\Piattaforma\mvp2 mio\tuPitagoMVP2\Domain\obj\Debug\net8.0\Domain.sou
 D:\tuPitago\Piattaforma\mvp2 mio\tuPitagoMVP2\Domain\obj\Debug\net8.0\Domain.dll
 D:\tuPitago\Piattaforma\mvp2 mio\tuPitagoMVP2\Domain\obj\Debug\net8.0\refint\Domain.dll
 D:\tuPitago\Piattaforma\mvp2 mio\tuPitagoMVP2\Domain\obj\Debug\net8.0\Domain.pdb
-D:\tuPitago\Piattaforma\mvp2 mio\tuPitagoMVP2\Domain\obj\Debug\net8.0\ref\Domain.dll
+d:\tuPitago\Piattaforma\mvp2 mio\tuPitagoMVP2\Domain\obj\Debug\net8.0\ref\Domain.dll

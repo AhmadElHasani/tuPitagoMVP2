@@ -6,7 +6,10 @@ D:\tuPitago\Piattaforma\mvp2 mio\tuPitagoMVP2\API\bin\Debug\net8.0\API.deps.json
 D:\tuPitago\Piattaforma\mvp2 mio\tuPitagoMVP2\API\bin\Debug\net8.0\API.runtimeconfig.json
 D:\tuPitago\Piattaforma\mvp2 mio\tuPitagoMVP2\API\bin\Debug\net8.0\API.dll
 D:\tuPitago\Piattaforma\mvp2 mio\tuPitagoMVP2\API\bin\Debug\net8.0\API.pdb
+D:\tuPitago\Piattaforma\mvp2 mio\tuPitagoMVP2\API\bin\Debug\net8.0\AutoMapper.dll
 D:\tuPitago\Piattaforma\mvp2 mio\tuPitagoMVP2\API\bin\Debug\net8.0\Humanizer.dll
+D:\tuPitago\Piattaforma\mvp2 mio\tuPitagoMVP2\API\bin\Debug\net8.0\MediatR.dll
+D:\tuPitago\Piattaforma\mvp2 mio\tuPitagoMVP2\API\bin\Debug\net8.0\MediatR.Contracts.dll
 D:\tuPitago\Piattaforma\mvp2 mio\tuPitagoMVP2\API\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 D:\tuPitago\Piattaforma\mvp2 mio\tuPitagoMVP2\API\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
 D:\tuPitago\Piattaforma\mvp2 mio\tuPitagoMVP2\API\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
